@@ -3,22 +3,22 @@ import './style.css'
 export default function Login(){
       return (
         
- <body>
-<div className="card rounded-1 text-center">
-<img className=" img-logo" src="src\img\logo.png" alt="" />
-<p className='font'>LOGIN</p>
+        
+<body className='boody'>
+  <div className="container divCard justify-content-md-center card rounded-0 text-center font row">
+<img className="row  img-logo" src="src\img\logo.png" alt="" />
+<p>LOGIN</p>
 <form >
-  <div className="mb-3 d-flex justify-content-center" >
+  <div className="row justify-content-md-center mb-3 " >
     <input type="email" placeholder="email" className="form-control stilologin"  />
   </div>
-  <div className="mb-3 d-flex justify-content-center">
+  <div className="row justify-content-md-center mb-3 ">
     <input type="password" placeholder="senha" className="form-control stilologin " />
   </div>
-  <button type="submit" className="btn btnlogin" >entrar</button>
-  <br></br>
-  <a href='/' id='link-cad'>cadastre-se</a>
+  <button type="submit" className=" row btn btnlogin" >entrar</button>
+  <a className='row justify-content-md-center  alinha' href='/' id='link-cad'>cadastre-se</a>
 </form>
-</div>
+</div> 
 </body>
         
     )

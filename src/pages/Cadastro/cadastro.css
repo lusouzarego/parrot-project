@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;  
+  }
+  .divCard{
+    margin: 60px auto;
+  }
+  body{
+    background-image: url(/src/img/cover.png); 
+    background-position: center;
+  }
+  .font{
+    font-size: 24px;
+  
+  }
+  
+  .stilologin{
+    border-color: #76BB4C;
+    width:335px;
+    height:39px;
+    margin-top: 26px;
+  }
+  
+  .img-logo{
+        width:171px;
+        align-items: center;
+        margin-left: 150px;
+            
+  }
+  .card{
+    width: 487px ;
+    height: 841px;
+  }
+  
+  .btnlogin{
+    width:335px;
+    height:39px;
+    background-color: #76BB4C;
+    font-size: 24px;
+    margin-top: 80px;
+    
+  }
+  .btnlogin:hover{
+    background-color: #6ba846;
+  }
+  .alinha{
+    margin-top: 30px;
+    text-decoration: none;
+  }
+  input[type="nome"]::placeholder{
+    text-align: center;
+    font-size: 24px;
+ }
+ input[type="email"]::placeholder{
+    text-align: center;
+    font-size: 24px;
+ }
+ input[type="password"]::placeholder{
+    text-align: center;
+    font-size: 24px;
+ }
+ input[type="password"]::placeholder{
+    text-align: center;
+    font-size: 24px;
+ }
+  input[type="text"]::placeholder{
+     text-align: center;
+     font-size: 24px;
+  }
+ 

@@ -1,10 +1,10 @@
-
+import Login from "./pages/Login/Login"
 function App() {
   
 
   return (
-    <div >
-      <h1 className="fs-1 fw-bold">ola</h1>
+    <div className=".bg-dark " >
+      <Login/>
     </div>
   )
 }

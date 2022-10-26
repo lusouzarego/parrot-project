@@ -1,0 +1,18 @@
+.LinkUser {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  color: #76bb4c;
+}
+
+.btnExit {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #6033aa;
+}
+
+.BarraNav {
+  width: 100vw;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}

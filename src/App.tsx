@@ -1,12 +1,10 @@
-import Cadastro from "./pages/Cadastro/Cadastro"
-import Login from "./pages/Login/Login"
-Cadastro
+import Routes from "./routes"
 function App() {
   
 
   return (
     <div>
-      <Login/>
+      <Routes/>
     </div>
   )
 }

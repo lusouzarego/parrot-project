@@ -5,10 +5,7 @@
   .divCard{
     margin: 60px auto;
   }
-  body{
-    background-image: url(/src/img/cover.png); 
-    background-position: center;
-  }
+  
   .font{
     font-size: 24px;
   

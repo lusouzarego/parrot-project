@@ -1,10 +1,11 @@
+
 import './style.css'
+
 
 export default function Login(){
       return (
         
-        
-<body className='boody'>
+  <body>
   <div className="container divCard justify-content-md-center card rounded-0 text-center font row">
 <img className="row  img-logo" src="src\img\logo.png" alt="" />
 <p>LOGIN</p>

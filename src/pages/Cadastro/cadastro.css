@@ -33,6 +33,7 @@
   background-color: #76bb4c;
   font-size: 24px;
   margin-top: 80px;
+  padding: 1px;
 }
 .btnlogin:hover {
   background-color: #6ba846;
@@ -65,5 +66,9 @@ input[type="text"]::placeholder {
 @media only screen and (max-width: 600px) {
   .img-logo {
     margin-left: 20%;
+  }
+
+  #btnexit {
+    margin-left: -32%;
   }
 }

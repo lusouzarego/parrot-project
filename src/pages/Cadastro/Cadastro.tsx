@@ -50,7 +50,7 @@ export default function Cadastro() {
                 className="form-control stilologin "
               />
             </div>
-            <button type="submit" className=" row btn btnlogin">
+            <button type="submit" className=" row btn btnlogin" id="btnexit">
               entrar
             </button>
           </form>

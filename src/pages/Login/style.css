@@ -33,6 +33,7 @@
   background-color: #76bb4c;
   font-size: 24px;
   margin-top: 26px;
+  padding: 2%;
 }
 .btnlogin:hover {
   background-color: #6ba846;
@@ -53,10 +54,17 @@ input[type="password"]::placeholder {
 
 @media only screen and (max-width: 600px) {
   #btnlogin {
-    margin-right: -6%;
+    margin-left: -32%;
   }
 
   #link-cad {
-    margin-left: 20%;
+    margin-left: 21%;
   }
+}
+.logintext {
+  margin-left: -10%;
+}
+
+form {
+  margin-left: 3%;
 }

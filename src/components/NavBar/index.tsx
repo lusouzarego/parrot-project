@@ -1,22 +1,14 @@
-import React from "react";
-import "./nav.css";
-import { Link } from "react-router-dom";
+import {NavBar} from "./style"
+import { Link } from "react-router-dom"
 
-export default function NavBar() {
-  return (
-    <header className="shadow-sm  bg-body rounded">
-      <Link to="/feed">
-        <img src="src\img\logo Nav.png" alt="logo parrot" />
-      </Link>
-      <nav>
-        <label>
-          Olá,{" "}
-          <Link className="linkP" to="/perfil">
-            nome
-          </Link>
-        </label>
-        <button className="btn2">| sair</button>
-      </nav>
-    </header>
-  );
+export default function NavNv(){
+   return(
+        <NavBar>
+          <Link to='/feed'><img src="src\img\logo Nav.png" alt="" /></Link>
+          <div>
+          <h3>Olá, Nome</h3>
+          <Link to='/login'>Sair</Link>
+          </div>
+       </NavBar>
+   )
 }

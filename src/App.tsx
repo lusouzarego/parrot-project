@@ -1,4 +1,6 @@
-import Routes from "./routes"
+import { LoginNv } from "./newSRC/pages/Login"
+import Routes from "./Routes"
+
 function App() {
   
 

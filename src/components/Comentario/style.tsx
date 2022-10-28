@@ -26,7 +26,7 @@ input{
      margin-left:10px
 }
 button{
-    width: 164px;
+width: 164px;
 height: 28px;
 background: #6033AA;
 border-radius: 30px;
@@ -37,4 +37,22 @@ margin-top:20px
 
 }
 
-`
+@media only screen and (max-width: 400px) {
+
+    img{
+        margin-left:-45%;
+    }
+
+    input{
+        max-width:250px;
+              
+    }
+
+    button{
+        margin-left:-1%;
+ 
+     
+    }
+}
+
+`;

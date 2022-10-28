@@ -1,24 +1,29 @@
 import styled from "styled-components";
 
 export const BackgroundCover = styled.body`
-
-background-size:cover;
-
-
-`
+  background-size: cover;
+`;
 export const Cardinput = styled.div`
-Width:487px;
-Height:642px;
+position:relative;
+top: 15%
+max-width:487px;
+max-height:642px;
 display:flex;
 justify-content: center
 align-items:center;
 flex-direction: column;
-margin: auto  auto;
+margin: auto;
 border-width: 1px 1px 1px 1px;
 border-style: solid;
 border-color: #C5C5C5;
 background-color:white;
-position:relative;
+
+@media only screen and (max-width:400px) {
+    max-width:300px;
+    position:relative;
+    top:5%;
+}
+
 
 
 h1{
@@ -37,8 +42,4 @@ a{
 
 }
 
-`
-
-
-
- 
+`;
